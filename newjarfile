@@ -14,7 +14,7 @@ pipeline {
         stage("test") {
 
             steps {
-                git 'https://github.com/gabrielgithub-node1/MyKubernetes.git'
+                git 'https://github.com/gabrielezet10/jarfil.git'
             }
         }
 
@@ -27,4 +27,3 @@ pipeline {
     }
 
 }
-
